@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <title>Grocery List Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Grocery List Generator</h1>
+    </div>
+
+    <form id="groceryInput">
+      <h3>Enter your groceries below:</h3>
+      <label for="first item" class="sr-only"></label>
+      <input type="text" name="first item" placeholder="Item 1" class="item form-control" />
+      <input type="text" name="second item" placeholder="Item 2" class="item form-control" />
+
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+
+    <br />
+    <br />
+    <div id="userList">
+
+    </div>
+  </div>
+</body>
+
+</html>
